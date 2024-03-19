@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size: 16px; /* Aumenta o tamanho da fonte base */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-box {
+  max-width: 500px; /* Aumenta a largura da caixa */
+  padding: 30px; /* Aumenta o espaçamento interno da caixa */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 32px; /* Aumenta o tamanho do título */
+  margin-bottom: 30px; /* Aumenta o espaçamento abaixo do título */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 15px; /* Aumenta o espaçamento abaixo do label */
+  color: #555;
+  font-size: 18px; /* Aumenta o tamanho do texto do label */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px; /* Aumenta o espaçamento abaixo do input */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Aumenta o tamanho do texto do input */
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px; /* Aumenta o tamanho do texto do botão */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
